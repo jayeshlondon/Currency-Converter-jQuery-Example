@@ -19,13 +19,20 @@ body {
 }
 
 #container select {
-	width: 250px;
+	width: 255px;
 	height: 35px;
+	background: #34455F;
+	color: #fff;
+	border: none;
+}
+
+#container select:focus {
+	outline: 0;
 }
 
 #container .fromCurrencySection , .toCurrencySection  {
 	
-    width: 250px;
+    width: 255px;
     height: 225px;
     float: left;
 }
@@ -47,7 +54,23 @@ body {
 #container .arrow {
 	float: left;
     font-size: 40px;
-    margin: 88px 20px;
+    margin: 100px 20px;
+    color: green;
+    font-weight: bold;
+}
+
+#container input[type=number] {
+	font-size: 40px;
+	width: 175px;
+	background: none;
+	color: #fff;
+	border: none;
+}
+
+#container input[type=number]::-webkit-inner-spin-button, 
+#container input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
   
